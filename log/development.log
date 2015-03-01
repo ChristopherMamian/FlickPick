@@ -222,3 +222,176 @@ Processing by MoviesController#new as HTML
   Rendered movies/new.html.erb within layouts/application (10.7ms)
   Rendered layouts/_header.html.erb (1.2ms)
 Completed 200 OK in 138ms (Views: 117.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-28 16:19:51 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 328ms (Views: 309.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/jquery.raty.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-28 16:19:52 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-28 16:19:58 -0800
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (6.2ms)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/jquery.raty.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-28 16:20:02 -0800
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-28 16:20:10 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (30.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 141ms (Views: 139.2ms | ActiveRecord: 0.0ms)

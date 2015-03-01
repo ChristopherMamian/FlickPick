@@ -1,0 +1,3 @@
+Hello!
+
+Here is a fun movie review application I made with Rails.
