@@ -1,3 +1,26 @@
+== README
+
 Hello!
 
 Here is a fun movie review application I made with Rails.
+
+
+How to run this app
+
+* git clone into a local directory
+
+* cd into repository
+
+* Run <tt>bundle install</tt>
+
+* Run <tt>bundle exec rake db:create</tt>
+
+* Run <tt>bundle exec rake db:migrate</tt>
+
+* Run <tt>rails server</tt>
+
+* Go to <tt>http://localhost:3000/</tt> via your browser.
+
+
+
+Please email me with any questions at christophermamian@gmail.com
